@@ -1,0 +1,24 @@
+[user]
+	email = hi@henry.wang
+	name = Henry
+[gpg]
+	program = /usr/local/bin/krgpg
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[color]
+	ui = auto
+[push]
+	recurseSubmodules = on-demand
+[fetch]
+	recurseSubmodules = true
+[credential]
+	helper = osxkeychain
+[status]
+	submoduleSummary = true
+[tag]
+	sort = version:refname
+[core]
+	ignorecase = false
+	excludesfile = .gitignore_global
