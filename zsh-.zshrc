@@ -20,3 +20,10 @@ alias spa="ssh paris"
 alias spi="ssh pi"
 alias cat="bat"
 alias ping='prettyping --nolegend'
+
+git_add_commit_push() {
+    git add -A
+    git commit -m "$*"
+    git push
+}
+alias gacp=git_add_commit_push
