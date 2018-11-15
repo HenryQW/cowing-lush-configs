@@ -19,7 +19,8 @@ export SSH_KEY_PATH="~/.ssh/id_kryptonite"
 alias spa="ssh paris"
 alias spi="ssh pi"
 alias cat="bat"
-alias ping='prettyping --nolegend'
+alias ping="prettyping --nolegend"
+alias brewski="brew update && brew upgrade && brew cleanup && brew prune; brew doctor"
 
 git_add_commit_push() {
     git add -A
