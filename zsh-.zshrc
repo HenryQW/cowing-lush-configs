@@ -28,3 +28,7 @@ git_add_commit_push() {
     git push
 }
 alias gacp=git_add_commit_push
+
+export redcup='cd /docker/Server-Configs && git reset --hard && git pull && dcpull && dcup -d && dkrmI'
+
+export reapi='cd /docker/Server-Configs && git reset --hard && git pull && git submodule update --recursive --remote && dcup -d --build && dkrmI'
