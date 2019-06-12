@@ -1,0 +1,28 @@
+# load omz
+robbyrussell/oh-my-zsh
+
+# load plugins
+robbyrussell/oh-my-zsh path:plugins/command-not-found
+robbyrussell/oh-my-zsh path:plugins/git
+robbyrussell/oh-my-zsh path:plugins/gitfast
+robbyrussell/oh-my-zsh path:plugins/docker-compose
+
+# zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-history-substring-search
+
+akarzim/zsh-docker-aliases
+
+# mac only plugins
+robbyrussell/oh-my-zsh path:plugins/osx
+
+# dev only plugins
+lukechilds/zsh-nvm
+dijitalmunky/nvm-auto
+sobolevn/wakatime-zsh-plugin
+qianxinfeng/zsh-vscode
+
+# load theme
+denysdovhan/spaceship-prompt
